@@ -1,0 +1,61 @@
+@font-face {
+    font-family: poppinsBlack;
+    src: url(fonts/Poppins-Black.ttf);
+  }
+  @font-face {
+    font-family: poppinsRegular;
+    src: url(fonts/Poppins-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: poppinsBold;
+    src: url(fonts/Poppins-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: poppinsBoldItalic;
+    src: url(fonts/Poppins-BoldItalic.ttf);
+  }
+
+  @font-face {
+    font-family: poppinsExtraBold;
+    src: url(fonts/Poppins-ExtraBold.ttf);
+  }
+
+  @font-face {
+    font-family: poppinsThin;
+    src: url(fonts/Poppins-Thin.ttf);
+  }
+
+  h1{
+      font-family: poppinsBold;
+  }
+
+  body{
+    font-family: poppinsRegular;
+  }
+
+#selector-container{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+#selector-lable{
+    display: inline-block;
+    width: auto;
+
+    margin-top: 9px;
+}
+
+#exampleFormControlSelect1{
+    flex: 1;
+    border: none;
+    font-size: 20pt;
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.card{
+    margin: 12px;;
+}
